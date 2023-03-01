@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jiaobenfx.HelloController">
+   <children>
+      <Accordion layoutX="83.0" layoutY="72.0" />
+      <TextField fx:id="pk" layoutX="95.0" layoutY="37.0" prefHeight="23.0" prefWidth="366.0" />
+      <TextField fx:id="coinAddress" layoutX="95.0" layoutY="80.0" prefHeight="23.0" prefWidth="366.0" />
+      <Text layoutX="36.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="私钥" />
+      <Text layoutX="35.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="代币合约" />
+      <Button fx:id="startMine" layoutX="110.0" layoutY="565.0" mnemonicParsing="false" onAction="#startMineEvent" text="转账" />
+      <TextArea fx:id="mineLog" layoutX="95.0" layoutY="332.0" prefHeight="206.0" prefWidth="366.0" wrapText="true" />
+      <Text layoutX="23.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="转账记录" />
+      <Text layoutX="36.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="转账地址" />
+      <TextField fx:id="toAddress" layoutX="95.0" layoutY="135.0" prefHeight="166.0" prefWidth="366.0" />
+      <Text layoutX="491.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数量" />
+      <TextField fx:id="amount" layoutX="540.0" layoutY="37.0" />
+   </children>
+</Pane>
